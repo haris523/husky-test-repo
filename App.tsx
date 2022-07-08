@@ -15,7 +15,7 @@ const App = () => {
     //   const savedTheme = await AsyncStorage.getItem("theme");
     //   if (savedTheme) setInitialTheme(savedTheme);
     // };
-    console.log('nest a')
+    console.log('nesta')
     const funk = () => {
         return 1
     }
