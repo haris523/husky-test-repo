@@ -8,17 +8,13 @@ import ThemeProvider from 'theme/ThemeContext'
 enableFreeze(true)
 
 const App = () => {
-    const [initialTheme, setInitialTheme] = useState<string | null>(null)
+    const [initialTheme] = useState<string | null>(null)
     //good function to persist theme
 
     // const getTheme = async () => {
     //   const savedTheme = await AsyncStorage.getItem("theme");
     //   if (savedTheme) setInitialTheme(savedTheme);
     // };
-    console.log('nest  a')
-    const funk = () => {
-        return 1
-    }
     useEffect(() => {
         // getTheme();
     }, [])

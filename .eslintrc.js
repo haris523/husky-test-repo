@@ -27,7 +27,6 @@ module.exports = {
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': ['error'],
         indent: 'off',
-        '@typescript-eslint/indent': ['error'],
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': ['error'],
         'no-dupe-class-members': 'off',
